@@ -2,9 +2,33 @@ body {
     background-color: red;
 }
 
+#small {
+
+}
+
+#medium {
+    display: none;
+}
+
+#large {
+    display: none;
+}
+
+.p {
+    text-align: center;
+}
+
 @media only screen and (min-width: 300px) {
     body {
       background-color: green;
+    }
+
+    #small {
+        display: none;
+    }
+
+    #medium {
+        display: inline-block;
     }
   }
 
@@ -12,4 +36,17 @@ body {
     body {
       background-color: blue;
     }
+
+    #small {
+        display: none;
+    }
+
+    #medium {
+        display: none;
+    }
+
+    #large {
+        display: inline-block;
+    }
+
   }
