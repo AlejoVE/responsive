@@ -7,7 +7,8 @@ This project was developed as an CSS exercise, as part of the web development tr
 - ## You can check the site [here](https://alejove.github.io/responsive/ ).
 
 ## What I did
- A webpage that changes its background color depending one the viewport size of the user, the colors will be:
+ 
+A web page that changes its background color and font size according to the size of the user's viewport.
  - Red: ```max-width: 413px```
  - Green: ```min-width: 414px```
  - Blue:  ```min-width: 768px```
