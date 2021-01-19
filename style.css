@@ -2,10 +2,6 @@ body {
     background-color: red;
 }
 
-#small {
-
-}
-
 #medium {
     display: none;
 }
@@ -14,13 +10,31 @@ body {
     display: none;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .p {
+    font-size: 20px;
     text-align: center;
+}
+
+.container {
+    justify-content: center;
+    width: 33%;
 }
 
 @media only screen and (min-width: 300px) {
     body {
       background-color: green;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 21px;
     }
 
     #small {
@@ -43,6 +57,14 @@ body {
 
     #medium {
         display: none;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 40px;
     }
 
     #large {
