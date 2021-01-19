@@ -2,13 +2,9 @@ body {
     background-color: red;
 }
 
-#medium {
-    display: none;
-}
 
-#large {
-    display: none;
-}
+
+
 
 h2 {
     font-size: 20px;
@@ -21,7 +17,7 @@ h2 {
 
 .container {
     justify-content: center;
-    width: 33%;
+    border: 1px solid black;
 }
 
 @media only screen and (min-width: 300px) {
@@ -37,38 +33,42 @@ h2 {
         font-size: 21px;
     }
 
-    #small {
-        display: none;
-    }
-
-    #medium {
-        display: inline-block;
-    }
+   
   }
 
   @media only screen and (min-width: 768px) {
     body {
       background-color: blue;
+      margin: 0px;
+      padding: 0px;
     }
 
-    #small {
-        display: none;
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        border: 3px solid red;
+        height: 100vh;
     }
-
-    #medium {
-        display: none;
+    
+    .container {
+        margin-top: 0px;
+        width: 33.9999%;
+        padding: 10px;
     }
+   
 
     p {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     h2 {
-        font-size: 40px;
+        text-align: center;
+        font-size: 20px;
     }
 
-    #large {
-        display: inline-block;
-    }
+
 
   }
